@@ -1,0 +1,63 @@
+.ae-sheet-container {
+  width: 100%;
+
+  .ae-sheet-body {
+    width: 100%;
+    height: 100%;
+  }
+  .ae-chart-component, .ae-table-component {
+    .ae-tag {
+      display: flex;
+      flex-direction: row;
+      height: 24px;
+      font-size: 11px;
+      font-weight: 500;
+      line-height: 1.5rem;
+      padding: 0 8px 0 12px;
+      border-radius: 16px;
+      background-color: #fff;
+      margin-right: 10px;
+      cursor: pointer;
+      max-width: 200px;
+
+      &.ae-inactive-attr {
+        border: 1px dashed #daeaf4;
+        color: #daeaf4;
+      }
+
+      &.ae-active-attr {
+        border: 1px solid #DAEAF4;
+        color: rgba(0, 0, 0, 0.6);
+      }
+
+      &:hover {
+        border: 1px solid #5c6476;
+      }
+
+      .ae-tag-title {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-right: 7px;
+      }
+
+      .ae-tag-option {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.ae-sheet-wrapper{
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100%;
+ 
+  .discovery-loader{
+    position: absolute;
+    background-color: $white;
+    opacity: 0.5;
+    z-index: 99;
+  }
+}

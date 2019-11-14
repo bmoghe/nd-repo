@@ -1,0 +1,69 @@
+@import '~aera-react-library/dist/styles/common';
+
+.ae-measures-dimensions-list {
+  font-family: 'FaktPro-Normal', Open Sans, sans-serif;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  padding: 0 14px 80px 10px;
+
+  .ae-dimensions-list,
+  .ae-measures-list {
+    height: 50%;
+    position: relative;
+
+    .ae-list-container {
+      position: absolute;
+      width: 100%;
+      overflow: auto;
+      bottom: 0;
+      top: 60px;
+      border-bottom: 1px solid $grey8;
+      padding: 5px 0;
+    }
+
+    .ae-list-header {
+      display: flex;
+      font-family: $default-font-family;
+      justify-content: space-between;
+      padding: 0 5px;
+      height: 20px;
+      align-items: center;
+      margin: 5px 0;
+
+      .ae-list-Header-title {
+        font-size: 13px;
+        color: #00619E;
+        user-select: none;
+      }
+
+      .ae-list-Header-option {
+        font-size: 10px;
+        color: #0090EA;
+        cursor: pointer;
+        user-select: none;
+      }
+    }
+
+    .aera-input-small {
+      input {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.dragging-element {
+  background-color: #fff;
+  max-width: 180px;
+  height: 24px;
+  display: block;
+  opacity: 1;
+  position: absolute;
+  top: -250px;
+  padding: 4px 10px 3px;
+  cursor: grab;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px dashed #dbdbdb;
+}

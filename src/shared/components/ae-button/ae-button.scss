@@ -1,0 +1,45 @@
+$ae-white: #ffffff;
+
+.ant-btn {
+  font-family: $native_font_FaktPro_Normal;
+  box-sizing: border-box;
+  font-size: 13px;
+  color: $ae-secondary-vivid-cyan-blue;
+  line-height: 13px;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid $ae-secondary-vivid-cyan-blue;
+
+  &:focus,
+  &:hover {
+    color: $ae-hover-light-blue;
+    border-color: $ae-hover-light-blue;
+  }
+
+  &.ant-btn-primary {
+    color: $ae-white;
+    background-color: $ae-secondary-vivid-cyan-blue;
+    border: 1px solid $ae-secondary-vivid-cyan-blue;
+
+    &:focus,
+    &:hover {
+      background-color: $ae-hover-light-blue;
+      border-color: $ae-hover-light-blue;
+    }
+
+    &.disabled,
+    &.disabled.active,
+    &.disabled:active,
+    &.disabled:focus,
+    &.disabled:hover,
+    &[disabled],
+    &[disabled].active,
+    &[disabled]:active,
+    &[disabled]:focus,
+    &[disabled]:hover {
+      color: $ae-gray-bluish-gray;
+      background-color: $ae-disabled-gray;
+      border-color: $ae-disabled-gray;
+    }
+  }
+}

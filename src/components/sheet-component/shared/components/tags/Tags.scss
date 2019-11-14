@@ -1,0 +1,41 @@
+.tag-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 24px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding: 0 8px 0 12px;
+  border-radius: 16px;
+  background-color: #fff;
+  margin-right: 10px;
+  cursor: pointer;
+  max-width: 200px;
+
+  &.inactive-attr {
+    border: 1px dashed #daeaf4;
+    color: #daeaf4;
+  }
+
+  &.active-attr {
+    border: 1px solid #DAEAF4;
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  &:hover {
+    border: 1px solid #5c6476;
+  }
+
+  .tag-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 7px;
+  }
+
+  .tag-option {
+    cursor: pointer;
+    padding-top: 2px;
+  }
+}

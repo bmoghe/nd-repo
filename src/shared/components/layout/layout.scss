@@ -1,0 +1,10 @@
+@import '../../../styles/color_mixins.scss';
+
+.footer{
+  position: fixed;
+  bottom: 1px;
+  height: 45px;
+  width: 100%;
+  background-color: $white;
+  border-top: 1px solid $cyan-bluish;
+}

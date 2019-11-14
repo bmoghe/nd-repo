@@ -1,0 +1,88 @@
+{
+  "name": "discovery",
+  "version": "2.6.9",
+  "proxy": "https://qa01.aeratechnology.com",
+  "private": true,
+  "dependencies": {
+    "aera-react-library": "^6.2.8-26",
+    "ag-grid-community": "^21.1.1",
+    "ag-grid-react": "^21.0.0",
+    "antd": "3.20.3",
+    "axios": "0.19.0",
+    "babel": "^6.23.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.3.5",
+    "fusioncharts": "^3.13.5-sr.1",
+    "lodash": "4.17.15",
+    "node-sass": "4.12.0",
+    "numeral": "^2.0.6",
+    "prop-types": "15.7.2",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-fusioncharts": "^3.0.1",
+    "react-hot-loader": "4.9.0",
+    "react-redux": "7.1.0",
+    "react-router-dom": "5.0.1",
+    "react-scripts": "3.0.1",
+    "react-test-renderer": "^16.8.6",
+    "reactstrap": "^8.0.0",
+    "redux": "4.0.4",
+    "redux-logger": "3.0.6",
+    "redux-promise-middleware": "6.1.1"
+  },
+  "scripts": {
+    "start": "set HTTPS=true&&react-scripts start",
+    "build": "react-scripts build",
+    "test:watch": "react-scripts test",
+    "test:coverage": "react-scripts test --watchAll=false --coverage",
+    "eject": "react-scripts eject",
+    "precommit": "lint-staged",
+    "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!aera-react-library)/\""
+  },
+  "lint-staged": {
+    "*.{html,js,jsx,css,scss,json}": [
+      "pretty-quick --staged"
+    ],
+    "*.{js,jsx}": [
+      "eslint"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "last 1 ie version"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.1",
+    "babel-jest": "24.8.0",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "canvas": "^2.6.0",
+    "canvas-prebuilt": "^2.0.0-alpha.14",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "4.3.0",
+    "eslint-plugin-import": "2.17.3",
+    "eslint-plugin-react": "7.13.0",
+    "husky": "2.4.0",
+    "lint-staged": "8.2.0",
+    "npm": "^6.9.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "1.17.1",
+    "pretty-quick": "1.11.0",
+    "redux-devtools-extension": "2.13.8",
+    "redux-mock-store": "^1.5.3"
+  }
+}

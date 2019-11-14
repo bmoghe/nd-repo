@@ -1,0 +1,36 @@
+// antd style override
+@import './override-styles/button';
+@import './override-styles/input';
+@import "external-urls";
+@import "./icon-cheats";
+@import "./mixins";
+@import "../components/new-sheet/index";
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: $default-font-family;
+  #root{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .ae-discovery{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      .ae-discovery-doc{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        .ae-discovery-container {
+          display: flex;
+          flex-direction: column;
+           }
+      }
+    }
+  }
+}

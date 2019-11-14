@@ -1,0 +1,72 @@
+@import '~aera-react-library/dist/styles/common';
+
+.ae-list-container {
+  display: flex;
+  flex-direction: column;
+
+  &::-webkit-scrollbar-track {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $grey5;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar {
+    width: 4px;
+    background-color: $white;
+  }
+
+  .ae-list-item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    cursor: pointer;
+    line-height: 14px;
+    padding: 6px 0;
+    user-select: none;
+    height: 26px;
+
+    .ae-list-item-icon {
+      min-width: 20px;
+      text-align: center;
+      font-size: 12px;
+      margin-top: -2px;
+    }
+
+    .ae-list-item-options {
+      display: none;
+
+    }
+
+    .ae-list-item-title {
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: $default-font-family;
+      font-size: 12px;
+      color: #383838;
+    }
+
+    &:hover {
+      .ae-list-item-options {
+        display: flex;
+        font-size: 12px;
+
+        .ae-list-item-edit {
+          width: 20px;
+        }
+
+        .ae-list-item-info {
+          width: 20px;
+
+        }
+      }
+    }
+  }
+}
+

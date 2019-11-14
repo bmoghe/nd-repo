@@ -1,0 +1,39 @@
+.scroll-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e7e7e7;
+  width: 100%;
+
+  .scroll-element-container {
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .scroll-action-buttons {
+    display: flex;
+    border: 1px solid #e7e7e7;
+    width: 50px;
+    border-radius: 4px;
+    margin: 0 5px;
+    padding: 2px;
+
+    .scroll-btn-right, .scroll-btn-left {
+      background-color: #fff;
+      border: 0;
+      width: 50%;
+      cursor: pointer;
+
+      &:focus {
+        outline: -webkit-focus-ring-color auto 0px;
+      }
+    }
+
+    .scroll-btn-left {
+      border-right: 1px solid #e7e7e7;
+    }
+  }
+}

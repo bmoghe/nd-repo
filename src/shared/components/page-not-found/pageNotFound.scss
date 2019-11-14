@@ -1,0 +1,16 @@
+@import '~aera-react-library/dist/styles/common';
+
+.ae-page-not-found {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 40%;
+
+  .page-not-found-icon {
+    font-size: 32px;
+  }
+
+  .page-not-found-icon {
+    font-family: $default-font-family;
+  }
+}

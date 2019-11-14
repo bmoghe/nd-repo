@@ -1,0 +1,54 @@
+.ae-save-discovery {
+  font-family: $native_font_FaktPro_Normal;
+  @include ae-input-labels;
+
+  .ae-input-labels {
+    textarea.ant-input {
+      margin-top: 10px;
+    }
+  }
+
+  .ae-close-icon {
+    margin-left: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+    color: #dadada;
+  }
+
+  .ae-save-discovery-header,
+  .ae-save-discovery-content,
+  .ae-save-discovery-footer {
+    background-color: $white;
+    padding: 0 30px;
+  }
+
+  .ae-save-discovery-header {
+    font-family: $native_font_FaktPro_Normal;
+    font-size: 16px;
+    height: 49px;
+    line-height: 76px;
+    color: $ae-gray-nero;
+    color: #1a1a1a;
+  }
+
+  .ae-save-discovery-footer {
+    font-family: $native_font_FaktPro_Normal;
+    height: 144px;
+    line-height: 30px;
+
+    .ant-btn {
+      margin: 0 5px;
+    }
+
+    .ant-radio-wrapper {
+      font-family: $native_font_FaktPro_Normal;
+      font-size: 13px;
+      color: $ae-gray-dark-grayish-blue;
+    }
+
+    .footer-btns {
+      display: inline-flex;
+    }
+  }
+}

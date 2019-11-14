@@ -1,0 +1,17 @@
+.ant-input {
+  font-family: $default-font-family;
+  background: $white;
+  border: 1px solid $grey5;
+  box-sizing: border-box;
+  font-size: $font-size-medium;
+  color: $grey2;
+
+  &:focus {
+    box-shadow: none;
+    border: 1px solid $primary1;
+  }
+
+  &:hover {
+    border: 1px solid $grey4;
+  }
+}

@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer SheetLink Component should not crash 1`] = `
+<div
+  className="nav-item "
+  id="menuitemPopoverundefined"
+  onClick={[Function]}
+  title="test"
+>
+  <span
+    className="footer-icon sheet-icon"
+    id="menuitemIcon"
+  />
+  test
+  <Popover
+    content={
+      <div
+        id="SHEET_MENU"
+      >
+        <button
+          className="btn btn-link cursor-pointer item-disable"
+          onClick={[Function]}
+          type="button"
+        >
+           Delete 
+        </button>
+        <br />
+        <button
+          className="btn btn-link cursor-pointer"
+          onClick={[Function]}
+          type="button"
+        >
+           Duplicate
+        </button>
+        <br />
+        <button
+          className="btn btn-link cursor-pointer"
+          onClick={[Function]}
+          type="button"
+        >
+           Mark as default
+        </button>
+        <br />
+      </div>
+    }
+    mouseEnterDelay={0.1}
+    mouseLeaveDelay={0.1}
+    onVisibleChange={[Function]}
+    overlayClassName="menu-popover"
+    overlayStyle={Object {}}
+    placement="topLeft"
+    transitionName="zoom-big"
+    trigger="click"
+    visible={false}
+  />
+  <span
+    className="solid-budicon-chevron-bottom pop-btn"
+    onClick={[Function]}
+  />
+  <Modal
+    closable={false}
+    destroyOnClose={true}
+    disableBackdropClick={false}
+    footer={null}
+    maskStyle={
+      Object {
+        "backgroundColor": "rgba(92, 100, 118, 0.5)",
+      }
+    }
+    open={false}
+    width={600}
+    wrapClassName="data-src-confirm-modal"
+  >
+    <div>
+      <div
+        className="ae-modal-header"
+      >
+        <div
+          className="ae-header-title"
+        >
+          Delete data Sheet
+        </div>
+        <button
+          autoFocus={true}
+          className="ae-header-close"
+          onClick={[Function]}
+          type="button"
+        />
+      </div>
+      <div
+        className="msg"
+      >
+        <span>
+          Are you sure to delete
+           
+          <b>
+            "
+            test
+            "
+          </b>
+           ?
+        </span>
+      </div>
+      <div
+        className="confirmation"
+      >
+        <Button
+          onClick={[Function]}
+          title="No"
+        />
+        <Button
+          onClick={[Function]}
+          title="Yes"
+          type="primary"
+        />
+      </div>
+    </div>
+  </Modal>
+</div>
+`;

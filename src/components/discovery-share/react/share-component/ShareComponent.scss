@@ -1,0 +1,61 @@
+@import "~aera-react-library/dist/styles/common";
+@import '../../../../styles/color_mixins.scss';
+
+$native_font_FaktPro_Normal: 'FaktPro-Normal',
+'Open Sans',
+sans-serif;
+
+.share-discovery-container {
+  font-family: $native_font_FaktPro_Normal;
+  line-height: normal;
+  color: #1A1A1A;
+
+  .share-header {
+    font-family: $native_font_FaktPro_Normal;
+    font-size: 16px;
+    padding: 30px;
+    position: relative;
+
+    .close-modal {
+      position: absolute;
+      right: 30px;
+      top: 28px;
+      color: #dadada;
+      font-size: 24px;
+      cursor: pointer;
+      height: 24px;
+    }
+  }
+
+  .ant-select {
+    width: 100%;
+    font-family: $native_font_FaktPro_Normal;
+  }
+
+  .ae-text-area-section {
+    font-family: $native_font_FaktPro_Normal;
+    margin-bottom: 15px;
+    padding: 0 30px;
+  }
+
+  .ae-user-list-section {
+    font-family: $native_font_FaktPro_Normal;
+    margin-bottom: 10px;
+    padding: 0 30px;
+
+    .select-container {
+      .ant-select-dropdown-menu-item {
+        font-family: $native_font_FaktPro_Normal;
+      }
+    }
+  }
+
+  .ae-share-discovery-footer {
+    font-family: $native_font_FaktPro_Normal;
+    padding: 30px;
+
+    .ae-share-btn {
+      margin: 0 0 0 20px;
+    }
+  }
+}

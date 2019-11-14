@@ -1,0 +1,121 @@
+@import "~aera-react-library/dist/styles/common";
+@import '../../../../styles/color_mixins.scss';
+
+.ae-discovey-header {
+  font-family: $default-font-family;
+  height: 59px;
+  border-bottom: 1px solid #f0f0f0;
+  max-height: 59px;
+  background: $white;
+  padding: 15px;
+
+  .discovery-title {
+    font-size: 16px;
+    color: $grey1;
+    text-transform: capitalize;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    .title-indicator {
+      color: #000000;
+      margin-right: 12px;
+    }
+  }
+
+  .discovery-actions {
+    text-align: right;
+    
+    .action-icon {
+      cursor: pointer;
+      font-size: 16px;
+      color: $ae-gray-dark-grayish-blue;
+      margin: 0 10px;
+    }
+
+    .close-icon {
+      margin: 0;
+      padding: 0;
+      border: none;
+      background: none;
+      font-size: 24px;
+      float: right;
+    }
+
+    .save-action {
+      margin: 0 10px;
+    }
+  }
+}
+
+.share-discovery-modal,
+.save-new-discovery-modal {
+  .ant-modal-header {
+    border-bottom: 0;
+    padding: 16px;
+    font-family: $default-font-family;
+  }
+
+  .ant-modal-body {
+    display: inline-block;
+    width: calc(100% - 10px);
+    margin: 0 5px;
+
+    .ae-btn {
+      margin-right: 5px;
+    }
+  }
+
+  .document-description {
+    min-height: 70px;
+    max-height: 100px;
+  }
+}
+
+.ae-confrimation-modal {
+  .confirmation-message {
+    font-family: $default-font-family;
+    width: 90%;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .ant-modal-content {
+    padding: 30px !important;
+    font-family: $default-font-family;
+  }
+
+  .ant-modal-close {
+    outline: none;
+  }
+
+  .action-icon {
+    cursor: pointer;
+    font-size: 16px;
+    color: #DADADA;
+    margin: 0 0 0 10px
+  }
+
+  .confrimation-modal-footer {
+    margin: 30px 0 0 0;
+
+    .ant-btn {
+      margin-left: 10px;
+    }
+  }
+}
+
+.ae-save-discovery-container {
+  height: 400px;
+  overflow: unset;
+
+  .ant-modal,
+  .ant-modal-content {
+    height: 100%;
+
+    .ae-input-labels {
+     color: $dark_grayish_blue;
+    }
+  }
+}

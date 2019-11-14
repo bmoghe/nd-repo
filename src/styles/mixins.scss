@@ -1,0 +1,23 @@
+@mixin full-page-loader {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin aera-normal-table {
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  .ag-row {
+    border-color: #EDF3F5;
+
+    .ag-cell {
+      line-height: 28px;
+      border-right-color: #EDF3F5;
+    }
+  }
+
+  .ag-header-cell, .ag-header-group-cell {
+    border-width: 1px;
+  }
+}

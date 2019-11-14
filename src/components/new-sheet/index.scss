@@ -1,0 +1,26 @@
+.table-container .ag-body-horizontal-scroll-viewport::-webkit-scrollbar-track, .table-container .ag-body-viewport::-webkit-scrollbar-track {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none; }
+
+.table-container .ag-body-horizontal-scroll-viewport::-webkit-scrollbar-thumb, .table-container .ag-body-viewport::-webkit-scrollbar-thumb {
+  background-color: #d6d7da;
+  border-radius: 0; }
+
+.table-container .ag-body-horizontal-scroll-viewport::-webkit-scrollbar, .table-container .ag-body-viewport::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+  background-color: #fff; }
+
+.table-container .table-pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center; }
+
+.sheet-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  overflow: auto; }

@@ -1,0 +1,1 @@
+import { default as  DiscoveryShareActions } from '../../../header/redux/actions/HeaderActions';

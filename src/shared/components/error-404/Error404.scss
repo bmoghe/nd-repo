@@ -1,0 +1,16 @@
+@import '~aera-react-library/dist/styles/common';
+
+.error-404 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 40%;
+
+  .error-404-icon {
+    font-size: 32px;
+  }
+
+  .error-404-icon {
+    font-family: $default-font-family;
+  }
+}

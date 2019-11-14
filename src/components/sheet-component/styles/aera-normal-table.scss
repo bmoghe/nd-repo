@@ -1,0 +1,20 @@
+// changes the default icon color
+$icon-color: #03a9f4;
+$foreground-colo: $grey2;
+$font-family: $default-font-family;
+
+// changes the selected checkbox check mark color
+$accent-color: #03a9f4;
+
+$header-height: 50px;
+$row-border-width: 1px;
+$border-color: #EDF3F5;
+$odd-row-background-color: $white;
+$ag-range-selected-color-1: rgb(250, 235, 215);
+$ag-range-selected-color-2: darken($ag-range-selected-color-1, 10%);
+$ag-range-selected-color-3: darken($ag-range-selected-color-1, 20%);
+$ag-range-selected-color-4: darken($ag-range-selected-color-1, 30%);
+
+// Ag-grid scss
+@import "~ag-grid-community/src/styles/ag-grid.scss";
+@import "~ag-grid-community/src/styles/ag-theme-balham/sass/ag-theme-balham.scss";

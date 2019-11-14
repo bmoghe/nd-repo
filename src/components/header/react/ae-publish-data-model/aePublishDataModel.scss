@@ -1,0 +1,72 @@
+.ae-publish-data-model {
+  padding: 25px 30px 30px;
+
+  .ae-publish-data-model-header {
+    height: 32px;
+    font-family: $native_font_FaktPro_Normal;
+    font-size: 16px;
+    color: $ae-gray-nero;
+
+    .ae-publish-data-model-close {
+      margin-left: 20px;
+      font-size: 16px;
+      margin-top: 7px;
+      cursor: pointer;
+    }
+  }
+
+  .ae-publish-data-model-container {
+    margin-top: 30px;
+    font-family: $native_font_FaktPro_Normal;
+
+
+    .ae-major-info {
+      font-size: 10px;
+      color: $ae-gray-bluish-gray;
+      margin: 10px 0;
+    }
+
+    .ae-minor-info {
+      font-size: 14px;
+      color: $ae-gray-bluish-gray;
+    }
+
+    .ae-input-labels {
+      margin-top: 16px;
+
+      .ant-radio-wrapper {
+        font-size: 13px;
+        margin-top: 10px;
+        color: $ae-gray-dark-grayish-blue;
+      }
+    }
+
+    .ae-input-info {
+      margin-top: 20px;
+      font-size: 13px;
+      color: $ae-gray-dark-grayish-blue;
+
+      .ae-publish-input {
+        margin-top: 5px;
+        background: #FFFFFF;
+        border: 1px solid $ae-gray-light-bluish-gray;
+        box-sizing: border-box;
+        border-radius: 4px;
+      }
+
+      textarea {
+        height: 70px;
+        resize: none;
+      }
+    }
+  }
+
+  .ae-publish-data-model-footer {
+    text-align: right;
+    margin-top: 25px;
+
+    .ant-btn {
+      margin: 0 9px
+    }
+  }
+}
